@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+
+<body>
+    <table border="1" width="100%">
+        <tr>
+            <td colspan="2" align="center" bgcolor="royalblue">
+                <h1>Map View </h1>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" bgcolor="#DEC5AF">
+                <center>
+                    <form method="post">
+                        <p><input type="text" name="fname" placeholder="First Name"></p>
+                        <p><input type="text" name="lname" placeholder="Last Name"></p>
+                        <p><input type="email" name="uid" placeholder="Email"></p>
+                        <p><input type="password" name="pd" placeholder="Password"></p>
+                        <p><input type="text" name="add" placeholder="Address"></p>
+                        <p>Gender :- Male<input type="radio" name="g" value="Male">
+                            Female<input type="radio" name="g" value="Female">
+                            Other<input type="radio" name="g" value="Other">
+                        </p>
+                        <p>
+                            Cousre :- Mca<input type="checkbox" name="Mca">
+                            Bca<input type="checkbox" name="Bca">
+                            Mba<input type="checkbox" name="Mba">
+                        </p>
+                        <p>
+                            <input type="date" name="dob">
+                        </p>
+                        <p>
+                            <input type="time" name="time">
+                        </p>
+                        <p>
+                            <input type="file">
+                        </p>
+                        <p>
+                            <input type="color">
+                        </p>
+                        <p><input type="submit" name="reg" value="Register Now"></p>
+                    </form>
+                </center>
+            </td>
+            <td>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Kanti%20Memorial%20Higher%20SSchool&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://fmovies-online.net">fmovies</a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 500px;
+                                width: 100%;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">embed google maps on website</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 500px;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
